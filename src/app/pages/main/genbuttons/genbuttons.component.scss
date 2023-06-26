@@ -1,0 +1,28 @@
+/* Botones selectores */
+.selector {
+    margin: 20%;
+    position: relative;
+    left: auto;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+button {
+    background-color: black;
+    border-color: #fff;
+    color: white;
+    padding: 2% 14%;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 2%;
+    margin-left:3%;
+  }
+
+button:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}

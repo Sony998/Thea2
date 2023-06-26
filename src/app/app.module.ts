@@ -22,6 +22,9 @@ import { PopUpComponent } from './pages/dataForm/pop-up/pop-up.component';
 import { ShoppingCarComponent } from './pages/shopping-car/shopping-car.component';
 import { MainComponent } from './pages/main/main/main.component';
 import { ListProductsComponent } from './pages/main/list-products/list-products.component';
+import { GenButtonsComponent } from '../app/pages/main/genbuttons/genbuttons.component';
+import { SocialmediaComponent } from '../app/pages/main/socialmedia/socialmedia.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -44,9 +47,9 @@ library.add(fas);
     PopUpComponent,
     ShoppingCarComponent,
     MainComponent,
-    ListProductsComponent
-   
-
+    ListProductsComponent,
+    GenButtonsComponent,
+    SocialmediaComponent
   ],
   imports: [ FormsModule,
     BrowserModule,
@@ -54,6 +57,7 @@ library.add(fas);
     HttpClientModule,
     CommonModule,
     NgbModule,
+    RouterModule,
 
     
   ],
